@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/poruke
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RVc2VyIiwiaWQiOiI2Mzk4MmJjMmJlYjI5ZGNjNDc3M2FlOWUiLCJpYXQiOjE2NzA5MjAyMTF9.wPl98_pt_oZxuemSnhj0fty-jzdP4_w_nrMfMGym4sw
+
+{
+  "sadrzaj": "Poruka sa korisnikom",
+  "vazno": true
+}
